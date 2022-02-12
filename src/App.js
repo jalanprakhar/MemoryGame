@@ -90,8 +90,8 @@ function App() {
           </h2>}
 
           <br />
-          <button onClick={shuffleCards}>Play again ❤️</button>
-          <button onClick={()=>{setShowModal(false)}}>Close 🥺</button>
+          <button onClick={shuffleCards}>Play again</button>
+          <button onClick={()=>{setShowModal(false)}}>Close</button>
         </Modal>}
       <h1>Magic Match</h1>
       <h3>Matches left:{matches}</h3>
